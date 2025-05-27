@@ -15,8 +15,12 @@ jobs:
         - name: Welcome Step 
           run: echo "Welcome to actions"
         - name: second step 
-          run: echo "Actions"   
-          
+          run: echo "Actions"
+    second-job:
+      runs-on: ubuntu-latest
+      steps:
+        - name: second-job         
+          run: echo "Welcome to Second Job"
 
 
         
