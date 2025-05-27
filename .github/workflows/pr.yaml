@@ -13,7 +13,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Welcome Step 
-          run: echo "Welcome to actions" 
+          run: echo "Welcome to actions"
+        - name: second step 
+          run: echo "Actions"   
           
 
 
